@@ -13,6 +13,9 @@ Also there are **three** parties involved. One is the *Guest*, second is the *Ho
 The site manager has to set up a **twilio** account, details of how to do it is given in the *setup.txt* file. The manager also sets up a gmail account to send emails to the Host at check-in and to the Guest at check-out.  
 Once the manager runs the *checkin.py* script, it prompts the guest to enter his name, contact and email; the script also prompts to enter the Host info.  
 After the check-in, the host recieves a mail through **smtp** regarding the guest details and the check-in-time.  
-![](https://github.com/Naman-Garg-06/Innovaccer-Intern/blob/master/Screenshot%20from%202019-11-27%2001-14-20.png)  
+![](https://github.com/Naman-Garg-06/Innovaccer-Intern/blob/master/Mail_to_Host.png)  
+
 Also an sms through **twilio** with the same details.  
+![](https://github.com/Naman-Garg-06/Innovaccer-Intern/blob/master/SMS_to_Host.png)  
+
 At check-out, Guest enters his e-mail id which extracts his info from the **Guest_Info** database. Again using the **time** library the check-out time is taken and the Guest recieves a mail from the manager regarding his meeting with the Host.  
