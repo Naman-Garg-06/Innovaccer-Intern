@@ -1,5 +1,5 @@
 # Innovaccer-Intern
-Summer Internship Challenge Hiring - Innovaccer
+Summer Internship Challenge Hiring - **Innovaccer**
 
 ### Prerequisites
 All the Scripts that I have created have been tested on Ubuntu-18.04 with python version 3.6.  
@@ -7,7 +7,7 @@ The Mail sent to Guest and Host is done via **smtp** library.
 The SMS sent to Host is done via **twilio** library.  
 **time** library is imported to store the entry with the timestamp of entry.
 
-### How is Works?
+### How it Works?
 There are two scripts: checkin.py and checkout.py  
 Also there are **three** parties involved. One is the *Guest*, second is the *Host* with whom guest is meeting and third will be the *site manager* or the middle person.      
 The site manager has to set up a **twilio** account, details of how to do it is given in the *setup.txt* file. The manager also sets up a gmail account to send emails to the Host at check-in and to the Guest at check-out.  
