@@ -29,7 +29,7 @@ def emailToGuest(bodytext, guestEmail, hostName):
 	
 	bodytext += "Host Name: " + hostName + "\n" + "Address Visited: " + address
 	
-	subject = "Your meet at" + address + "."
+	subject = "Your meet at " + address + "."
 	message = 'Subject: {}\n\n{}'.format(subject, bodytext)
 	
 	s = smtplib.SMTP('smtp.gmail.com', 587)
