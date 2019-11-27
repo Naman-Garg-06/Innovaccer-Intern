@@ -18,6 +18,7 @@ After the check-in, the host recieves a mail through **smtp** regarding the gues
 Also an sms is sent through **twilio** with the same details.  
 
 At check-out, Guest enters his e-mail id which extracts his info from the **Guest_Info** database. Again using the **time** library the check-out time is taken and the Guest recieves a mail from the manager regarding his meeting with the Host.    
+
 After Check-in, Host will recieve the mail in the following format.  
 ![](https://github.com/Naman-Garg-06/Innovaccer-Intern/blob/master/HostMail.png)  
 
