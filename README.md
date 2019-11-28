@@ -24,6 +24,6 @@ After Check-in, Host will recieve the mail in the following format.
 ![](https://github.com/Naman-Garg-06/Innovaccer-Intern/blob/master/HostMail.png)  
 
 After Check-out, Guest will recieve the mail in the following format.  
-![](https://github.com/Naman-Garg-06/Innovaccer-Intern/blob/master/GuestMail.jpeg)   
+![](https://github.com/Naman-Garg-06/Innovaccer-Intern/blob/master/GuestMail.png)   
 
-**NOTE: While entering the phone number, make sure you start with +91 and then the number**
+**NOTE: While entering the phone number, make sure you start with +91 and then the number. Also make sure that the E-mail Id is entered in correct format.**
