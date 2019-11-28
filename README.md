@@ -5,7 +5,8 @@ Summer Internship Challenge Hiring - **Innovaccer**
 All the Scripts that I have created have been tested on Ubuntu-18.04 with python version 3.6.  
 The Mail sent to Guest and Host is done via **smtp** library.  
 The SMS sent to Host is done via **twilio** library.  
-**time** library is imported to store the entry with the timestamp of entry.
+**time** library is imported to store the entry with the timestamp of entry.  
+For initial set-up, go through the *setup.pdf* file.  
 
 ### How it Works?
 There are two scripts: checkin.py and checkout.py  
@@ -26,4 +27,6 @@ After Check-in, Host will recieve the mail in the following format.
 After Check-out, Guest will recieve the mail in the following format.  
 ![](https://github.com/Naman-Garg-06/Innovaccer-Intern/blob/master/GuestMail.png)   
 
-**NOTE: While entering the phone number, make sure you start with +91 and then the number. Also make sure that the E-mail Id is entered in correct format.**
+**NOTE: While entering the phone number, make sure you start with +91 and then the number. Also make sure that the E-mail Id is entered in correct format.**  
+
+
