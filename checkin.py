@@ -12,11 +12,11 @@ from time import localtime, strftime
 class siteManager:
     def siteManagerInfo(self):
         address = "Innovaccer Noida"
-        account_sid = 'AC17191c56db80ec90f48a614acbe6ee19'
-        auth_token = 'fcb3dda668dbf2e93e702a07775d816a'
-        twilioContact = '+1 484 202 6039'
-        emailLoginId = "namannitish98@gmail.com"
-        emailLoginPassword = "Naman8009688668"
+        account_sid = ''
+        auth_token = ''
+        twilioContact = ''
+        emailLoginId = ""
+        emailLoginPassword = ""
         return address,account_sid,auth_token,twilioContact,emailLoginId,emailLoginPassword
 
 def hostDetails():
